@@ -32,4 +32,4 @@ export const fetchCollectionsStartAsync = () => {
       })
       .catch(error => dispatch(fetchCollectionsFailure(error.message)));
   };
-}; // Moving this from thunk to saga
+};
